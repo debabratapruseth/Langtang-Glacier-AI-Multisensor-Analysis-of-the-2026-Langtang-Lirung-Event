@@ -7,6 +7,18 @@ The project integrates Sentinel-1 SAR, Sentinel-2 optical imagery, ERA5-Land cli
     Research objective: Can open satellite, climate, and AI-based analytical methods identify long term environmental changes, short-term anomalies, and observable surface changes surrounding a major glacier–rock slope event?
 
 
+## Sample Outputs
+
+![Glacier](https://github.com/debabratapruseth/Langtang-Glacier-AI-Multisensor-Analysis-of-the-2026-Langtang-Lirung-Event/blob/main/Artefacts/Glacier%20Analysis.png)
+
+![](https://github.com/debabratapruseth/Langtang-Glacier-AI-Multisensor-Analysis-of-the-2026-Langtang-Lirung-Event/blob/main/Artefacts/pre_event_historical_percentiles.png)
+
+![Anomaly Score Timeseries](https://github.com/debabratapruseth/Langtang-Glacier-AI-Multisensor-Analysis-of-the-2026-Langtang-Lirung-Event/blob/main/Artefacts/anomaly_score_timeseries.png)
+
+![](https://github.com/debabratapruseth/Langtang-Glacier-AI-Multisensor-Analysis-of-the-2026-Langtang-Lirung-Event/blob/main/Artefacts/integrated_event_timeline.png)
+
+
+
 ## Key Findings
 
 The analysis provides evidence of unusually warm and melt-favourable conditions in the days and weeks preceding the event, while finding no similarly exceptional immediate rainfall anomaly.
