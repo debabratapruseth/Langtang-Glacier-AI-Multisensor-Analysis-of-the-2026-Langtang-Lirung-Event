@@ -355,7 +355,7 @@ Conclusion: 🟢 The evidence supports environmental-state monitoring and a hypo
 
 The central result of this research is therefore:
 
-  The 26 August 2026 Langtang Lirung event occurred following an exceptionally warm and melt-favourable period, against a longer-term background of increasing Positive Degree Day conditions and changing radar backscatter characteristics. Immediate antecedent precipitation was not exceptionally high in the ERA5-Land record, and unsupervised AI did not identify a unique monthly collapse precursor. The combined evidence is consistent with environmental conditioning but does not establish the physical trigger, causal mechanism, or predictive capability.
+    The 26 August 2026 Langtang Lirung event occurred following an exceptionally warm and melt-favourable period, against a longer-term background of increasing Positive Degree Day conditions and changing radar backscatter characteristics. Immediate antecedent precipitation was not exceptionally high in the ERA5-Land record, and unsupervised AI did not identify a unique monthly collapse precursor. The combined evidence is consistent with environmental conditioning but does not establish the physical trigger, causal mechanism, or predictive capability.
 
 The project therefore demonstrates the potential of:
 
@@ -410,7 +410,7 @@ AI-enabled Glacier Hazard Digital Twin
 
 integrating:
 
-  Climate → Cryosphere → Slope Condition → Event Detection → Runout → Downstream Risk
+    Climate → Cryosphere → Slope Condition → Event Detection → Runout → Downstream Risk
 
 
 ## Responsible Use
@@ -437,6 +437,6 @@ A formal research-paper citation and DOI will be added if/when the accompanying 
 
 ## Status
 
-Research Prototype — V2
+Research Prototype — V1
 
 The project is under active development. Findings may be revised as additional satellite observations, event geometry, validation data, and improved physical modelling become available.
