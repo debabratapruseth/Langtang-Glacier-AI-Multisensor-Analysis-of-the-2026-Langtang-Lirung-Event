@@ -96,6 +96,8 @@ The model is trained exclusively on observations before 2026.
 After correcting for data completeness and integrating valid Sentinel-1 features, the model does not identify a uniquely extreme monthly environmental state immediately preceding the event.
 
 
+
+
 # Research Questions & Findings
 
 The project investigates five research questions using climate records, multisensor satellite observations, statistical analysis, and unsupervised AI.
