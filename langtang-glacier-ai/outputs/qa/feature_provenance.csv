@@ -1,0 +1,8 @@
+feature,source,operation,units
+NDSI_change,Sentinel-2,monthly difference,index
+PDD_change,ERA5-Land,monthly difference,degC day
+antecedent_precipitation_index,ERA5-Land,API decay=0.85,mm
+environmental_transition_magnitude,multisensor,RMS robust standardized monthly changes,relative
+freeze_thaw_cycles,ERA5-Land,monthly sum of Tmin <= 0 < Tmax days,days
+snow_fraction_change,Sentinel-2,monthly difference,fraction
+temp_change,ERA5-Land,monthly difference,degC

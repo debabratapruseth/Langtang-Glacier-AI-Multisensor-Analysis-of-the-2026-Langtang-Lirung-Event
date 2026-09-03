@@ -1,0 +1,13 @@
+ndsi_threshold,coverage_threshold,n,slope_per_year,trend_direction,metric_label,direction_stable_across_coverage
+0.3,0.0,9,0.01632172117118224,increasing,snow/clean-ice spectral proxy; not glacier area,True
+0.3,0.6,9,0.01632172117118224,increasing,snow/clean-ice spectral proxy; not glacier area,True
+0.3,0.8,9,0.01632172117118224,increasing,snow/clean-ice spectral proxy; not glacier area,True
+0.3,0.9,9,0.01632172117118224,increasing,snow/clean-ice spectral proxy; not glacier area,True
+0.4,0.0,9,0.01707226201062925,increasing,snow/clean-ice spectral proxy; not glacier area,True
+0.4,0.6,9,0.01707226201062925,increasing,snow/clean-ice spectral proxy; not glacier area,True
+0.4,0.8,9,0.01707226201062925,increasing,snow/clean-ice spectral proxy; not glacier area,True
+0.4,0.9,9,0.01707226201062925,increasing,snow/clean-ice spectral proxy; not glacier area,True
+0.5,0.0,9,0.017876885797823802,increasing,snow/clean-ice spectral proxy; not glacier area,True
+0.5,0.6,9,0.017876885797823802,increasing,snow/clean-ice spectral proxy; not glacier area,True
+0.5,0.8,9,0.017876885797823802,increasing,snow/clean-ice spectral proxy; not glacier area,True
+0.5,0.9,9,0.017876885797823802,increasing,snow/clean-ice spectral proxy; not glacier area,True

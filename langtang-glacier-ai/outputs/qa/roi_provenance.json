@@ -1,0 +1,9 @@
+{
+  "glacier_roi": "GLIMS/current documented Lirung inventory outline",
+  "context_roi": "15 km visual buffer; not hydrological",
+  "downstream_context_roi": "25 km visual buffer; not event footprint",
+  "hydrological_catchment_roi": "HydroSHEDS level-12 basin containing documented Lirung anchor",
+  "stable_control_candidate_roi": "derived 1-5 km annulus; candidate only, not field-validated stable",
+  "suspected_source_zone_roi": "UNSET; requires external validated geometry",
+  "avalanche_debris_pathway_roi": "UNSET; requires external validation"
+}
