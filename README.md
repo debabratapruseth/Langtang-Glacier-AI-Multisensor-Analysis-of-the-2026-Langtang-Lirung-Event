@@ -4,9 +4,7 @@ An open-source research prototype combining satellite Earth observation, climate
 
 The project integrates Sentinel-1 SAR, Sentinel-2 optical imagery, ERA5-Land climate data, glacier boundaries, and terrain information using Google Earth Engine and Python.
 
-    Research objective: Can open satellite, climate, and AI-based analytical methods identify long
-    term environmental changes, short-term anomalies, and observable surface changes surrounding a
-    major Himalayan glacier–rock slope event?
+    Research objective: Can open satellite, climate, and AI-based analytical methods identify long term environmental changes, short-term anomalies, and observable surface changes surrounding a major glacier–rock slope event?
 
 ⸻
 
