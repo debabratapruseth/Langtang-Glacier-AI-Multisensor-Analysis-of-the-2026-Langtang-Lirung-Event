@@ -95,6 +95,139 @@ The model is trained exclusively on observations before 2026.
 
 After correcting for data completeness and integrating valid Sentinel-1 features, the model does not identify a uniquely extreme monthly environmental state immediately preceding the event.
 
-This is an important negative result. The system should therefore be interpreted as an: environmental anomaly detection system
+
+# Research Questions & Findings
+
+The project investigates five research questions using climate records, multisensor satellite observations, statistical analysis, and unsupervised AI.
+
+### RQ1 — Long-term environmental change
+
+Question:
+Are statistically detectable changes present in temperature, melt-favourable conditions, optical snow characteristics, or radar backscatter around Langtang Lirung?
+
+Finding: YES — but the strength of evidence differs by variable.
+
+The analysis finds evidence of increasingly melt-favourable conditions, with Positive Degree Days (PDD) showing an increasing tendency supported by Sen’s slope, OLS with HAC standard errors, and autocorrelation-adjusted Mann–Kendall analysis.
+
+Sentinel-1 also shows statistically significant long-term changes in VV and VH radar backscatter. These changes indicate evolving radar-observed surface characteristics, although their physical cause cannot yet be uniquely attributed to ice loss, surface wetness, snow conditions, roughness, or glacier instability.
+
+Temperature shows an upward tendency, but its statistical significance becomes weaker after accounting for temporal autocorrelation.
+
+Sentinel-2 snow/clean-ice spectral indicators also show changes, but the trend depends on how seasonality and observation windows are treated and should not be interpreted as direct glacier-area or mass loss.
+
+Conclusion: 🟢 Evidence of long-term environmental change is present, with the strongest current evidence coming from increasing PDD and changing Sentinel-1 backscatter.
+
+
+
+### RQ2 — Pre-event environmental conditions
+
+Question:
+Were conditions during the days, weeks, or months preceding 26 August 2026 unusual relative to the historical record?
+
+Finding: YES — particularly for temperature and melt-favourable conditions.
+
+Matched historical analysis comparing identical calendar periods shows exceptionally warm conditions before the event.
+
+Temperature and PDD reached approximately:
+
+* 100th percentile over the preceding 1-day window
+* 100th percentile over 3 days
+* 100th percentile over 7 days
+* ~98th percentile over 14 days
+* ~93rd percentile over 30 days
+* ~98th percentile over 60 days
+
+In contrast, short-term precipitation was not exceptionally high. Precipitation over the 1-, 3-, 7-, 14- and 30-day antecedent windows remained broadly within the historical distribution.
+
+Conclusion: 🟢 The event was preceded by an unusually warm and strongly melt-favourable period, but not by an exceptional immediate rainfall anomaly in the ERA5-Land data.
+
+This represents environmental context and does not establish that the thermal conditions caused the collapse.
+
+
+
+### RQ3 — AI anomaly detection
+
+Question:
+Can unsupervised multivariate analysis identify an unusual environmental state preceding the event?
+
+Finding: PARTIALLY — but no unique collapse precursor was detected.
+
+The project combines climate and Sentinel-1 features using an ensemble anomaly-detection approach based on:
+
+* robust multivariate distance
+* Isolation Forest
+* PCA reconstruction error
+
+The model identifies unusual environmental states elsewhere in the historical record and highlights changing combinations of climate and radar conditions.
+
+However, after correcting incomplete-period bias and applying the data-quality controls, the model does not identify a uniquely extreme monthly anomaly immediately preceding the August 2026 event.
+
+This is an important result.
+
+The strongest pre-event signals appear at shorter days-to-weeks timescales, particularly in temperature and PDD, rather than as a unique monthly multivariate anomaly.
+
+Conclusion: 🟡 AI can identify unusual environmental states, but the current model does not provide evidence of a unique AI-detectable precursor to the collapse.
+
+The anomaly score should therefore not be interpreted as a collapse probability or early-warning signal.
+
+
+
+### RQ4 — Satellite event evidence
+
+Question:
+Can Sentinel-1 and Sentinel-2 observations identify measurable surface changes across the event window?
+
+Finding: PARTIALLY.
+
+Sentinel-1 SAR
+
+A quality-controlled same-geometry Sentinel-1 pair was identified:
+
+* Pre-event: 16 August 2026
+* Event: 26 August 2026
+* Post-event: 28 August 2026
+* Geometry: ASCENDING / Relative Orbit 85
+* Valid glacier coverage: ~95.6%
+
+This provides a credible basis for examining radar-observed surface change around the event.
+
+Whole-glacier mean VV/VH changes are relatively small, however, and a spatially validated collapse footprint has not yet been established.
+
+Further spatial SAR change analysis is therefore required.
+
+Sentinel-2 Optical
+
+Sentinel-2 provides adequate pre-event imagery but only approximately 2.3% valid post-event glacier coverage, primarily because of cloud obstruction.
+
+The pipeline therefore automatically rejects quantitative optical pre/post change estimation rather than interpreting missing/cloud-covered pixels as physical change.
+
+Conclusion: 🟡 Sentinel-1 provides usable event-window observations and exploratory evidence for spatial change analysis. Sentinel-2 post-event data are currently insufficient for quantitative event-change measurement.
+
+A validated physical collapse footprint has not yet been demonstrated.
+
+
+
+### RQ5 — Environmental conditioning
+
+Question:
+What can the combined evidence tell us about environmental conditioning while remaining distinct from causal attribution or event prediction?
+
+Finding: The combined evidence supports environmental conditioning as a research hypothesis — not causal attribution.
+
+The observations collectively indicate:
+
+* increasingly melt-favourable PDD conditions over the study period
+* statistically significant long-term Sentinel-1 backscatter changes
+* exceptionally warm and high-PDD conditions during several days-to-weeks windows immediately before the event
+* no corresponding exceptional short-term rainfall anomaly
+* no unique monthly AI anomaly capable of distinguishing the event from other unusual environmental periods
+* a valid Sentinel-1 pre/post-event observation pair, but no independently validated physical failure footprint yet
+
+Together, these observations are consistent with the possibility that the glacier–rock slope system experienced significant environmental conditioning before the event.
+
+However, the analysis does not contain sufficient information about rock mechanics, slope deformation, fractures, permafrost, ice thickness, glacier velocity, subglacial hydrology, or other mechanical processes to determine the physical failure mechanism.
+
+Conclusion: 🟢 The evidence supports environmental-state monitoring and a hypothesis of thermal/melt conditioning, but it does not establish why the slope failed on 26 August 2026, prove that climate caused the event, or demonstrate that the collapse could have been predicted.
+
 
 rather than a: glacier-collapse prediction model.
