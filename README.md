@@ -6,7 +6,6 @@ The project integrates Sentinel-1 SAR, Sentinel-2 optical imagery, ERA5-Land cli
 
     Research objective: Can open satellite, climate, and AI-based analytical methods identify long term environmental changes, short-term anomalies, and observable surface changes surrounding a major glacier–rock slope event?
 
-⸻
 
 ## Key Findings
 
@@ -115,7 +114,7 @@ This is an important negative result. The system should therefore be interpreted
 
 rather than a: glacier-collapse prediction model.
 
-⸻
+
 
 ## Why AI?
 
@@ -143,7 +142,7 @@ The analytical workflow is:
 
 This allows unusual combinations of climate and satellite observations to be investigated without requiring labelled collapse-training data.
 
-⸻
+
 
 ## Data Sources
 
@@ -262,7 +261,6 @@ If pre/post-event optical coverage fails the configured quality threshold, quant
 
 This prevents cloud-obscured pixels from being interpreted as glacier loss.
 
-⸻
 
 ## Statistical Methods
 
@@ -301,54 +299,54 @@ Dimensionality analysis
 
 ## Repository Structure
 
-langtang-glacier-ai/
-│
-├── notebooks/
-│   ├── 01_setup_and_roi.ipynb
-│   ├── 02_sentinel2_glacier_analysis.ipynb
-│   ├── 03_sentinel2_visual_comparison.ipynb
-│   ├── 04_climate_weather_analysis.ipynb
-│   ├── 05_sentinel1_sar_change.ipynb
-│   ├── 06_feature_engineering.ipynb
-│   ├── 07_trend_analysis.ipynb
-│   ├── 08_anomaly_detection.ipynb
-│   ├── 09_event_pre_post_analysis.ipynb
-│   └── 10_integrated_dashboard_and_conclusions.ipynb
-│
-├── src/
-│   ├── config.py
-│   ├── gee_utils.py
-│   ├── glacier_features.py
-│   ├── climate_features.py
-│   ├── sar_features.py
-│   ├── feature_engineering.py
-│   ├── trend_analysis.py
-│   ├── anomaly_detection.py
-│   ├── event_analysis.py
-│   ├── visualization.py
-│   ├── reporting.py
-│   └── utils.py
-│
-├── data/
-│   └── processed/
-│
-├── outputs/
-│   ├── charts/
-│   ├── maps/
-│   ├── tables/
-│   └── qa/
-│
-├── docs/
-│   ├── datasets.md
-│   ├── methodology.md
-│   └── limitations.md
-│
-├── tests/
-├── requirements.txt
-├── LICENSE
-└── README.md
+    langtang-glacier-ai/
+    │
+    ├── notebooks/
+    │   ├── 01_setup_and_roi.ipynb
+    │   ├── 02_sentinel2_glacier_analysis.ipynb
+    │   ├── 03_sentinel2_visual_comparison.ipynb
+    │   ├── 04_climate_weather_analysis.ipynb
+    │   ├── 05_sentinel1_sar_change.ipynb
+    │   ├── 06_feature_engineering.ipynb
+    │   ├── 07_trend_analysis.ipynb
+    │   ├── 08_anomaly_detection.ipynb
+    │   ├── 09_event_pre_post_analysis.ipynb
+    │   └── 10_integrated_dashboard_and_conclusions.ipynb
+    │
+    ├── src/
+    │   ├── config.py
+    │   ├── gee_utils.py
+    │   ├── glacier_features.py
+    │   ├── climate_features.py
+    │   ├── sar_features.py
+    │   ├── feature_engineering.py
+    │   ├── trend_analysis.py
+    │   ├── anomaly_detection.py
+    │   ├── event_analysis.py
+    │   ├── visualization.py
+    │   ├── reporting.py
+    │   └── utils.py
+    │
+    ├── data/
+    │   └── processed/
+    │
+    ├── outputs/
+    │   ├── charts/
+    │   ├── maps/
+    │   ├── tables/
+    │   └── qa/
+    │
+    ├── docs/
+    │   ├── datasets.md
+    │   ├── methodology.md
+    │   └── limitations.md
+    │
+    ├── tests/
+    ├── requirements.txt
+    ├── LICENSE
+    └── README.md
 
-⸻
+
 
 ## Running the Project
 
@@ -374,7 +372,7 @@ We have used GDrive to store the files and Google Colab to run the code. You can
 
 Some tests and analyses can operate using previously generated local outputs without reconnecting to Earth Engine.
 
-⸻
+
 
 ## Research Questions & Findings
 
@@ -550,8 +548,6 @@ The current event analysis does not yet contain an independently validated failu
 
 
 
-⸻
-
 ## Future Research
 
 The next research phase will focus on:
@@ -574,7 +570,6 @@ integrating:
 
   Climate → Cryosphere → Slope Condition → Event Detection → Runout → Downstream Risk
 
-⸻
 
 ## Responsible Use
 
@@ -590,17 +585,15 @@ It should not be used as an operational early-warning, emergency-management, or 
 
 
 
-⸻
-
-Citation
+## Citation
 
 If you use this repository in research or derivative work, please cite the repository.
 
 A formal research-paper citation and DOI will be added if/when the accompanying study is published.
 
-⸻
 
-Status
+
+## Status
 
 Research Prototype — V2
 
