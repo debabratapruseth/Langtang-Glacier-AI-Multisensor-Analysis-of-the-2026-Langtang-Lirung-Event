@@ -1,0 +1,20 @@
+{
+  "event_date": "2026-08-26",
+  "event_source": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Nepal_flash_flood_imaged_by_satellites",
+  "pre_start": "2026-08-19",
+  "pre_end": "2026-08-26",
+  "post_start": "2026-08-27",
+  "post_end": "2026-09-03",
+  "sentinel1_available": true,
+  "sentinel1_pre_start": "2026-08-16",
+  "sentinel1_pre_end": "2026-08-17",
+  "sentinel1_post_start": "2026-08-28",
+  "sentinel1_post_end": "2026-08-29",
+  "sentinel1_pre_days_before_event": 10,
+  "sentinel1_post_days_after_event": 2,
+  "sentinel1_pre_valid_area_fraction": 0.9561520610954632,
+  "sentinel1_post_valid_area_fraction": 0.9561520610954632,
+  "sentinel1_orbit_pass": "ASCENDING",
+  "sentinel1_relative_orbit": 85,
+  "sentinel1_search_days": 60
+}

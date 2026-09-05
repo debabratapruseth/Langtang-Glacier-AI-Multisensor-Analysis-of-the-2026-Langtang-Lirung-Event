@@ -1,0 +1,101 @@
+[
+  {
+    "group": "climate_sar_change",
+    "features": [
+      "temp_anomaly",
+      "PDD_adjusted",
+      "precip_7d_adjusted",
+      "antecedent_precipitation_index_adjusted",
+      "VV_change_adjusted",
+      "VH_change_adjusted"
+    ],
+    "complete_months": 113,
+    "training_months": 106,
+    "training_end_exclusive": "2026-01-01",
+    "pca_components": 4,
+    "pca_explained_variance": 0.9629077481778935,
+    "training_median": {
+      "temp_anomaly": 0.3669221073805936,
+      "PDD_adjusted": -0.2917263958953674,
+      "precip_7d_adjusted": -5.024805441210125,
+      "antecedent_precipitation_index_adjusted": 54.43924849324969,
+      "VV_change_adjusted": 0.003847817150438068,
+      "VH_change_adjusted": 0.01469766531918991
+    },
+    "training_scale": {
+      "temp_anomaly": 0.9411309421416608,
+      "PDD_adjusted": 4.01260119008126,
+      "precip_7d_adjusted": 19.736477423872536,
+      "antecedent_precipitation_index_adjusted": 118.09046875149896,
+      "VV_change_adjusted": 0.35382658865879957,
+      "VH_change_adjusted": 0.49739584574882556
+    },
+    "feature_strategy": "climate_sar_change",
+    "candidate_complete_training_months": {
+      "climate_sar_change": 106,
+      "climate_sar_level": 108,
+      "climate_only": 126
+    },
+    "requested_features": [
+      "temp_anomaly",
+      "PDD_adjusted",
+      "precip_7d_adjusted",
+      "antecedent_precipitation_index_adjusted",
+      "VV_change_adjusted",
+      "VH_change_adjusted"
+    ],
+    "actual_features": [
+      "temp_anomaly",
+      "PDD_adjusted",
+      "precip_7d_adjusted",
+      "antecedent_precipitation_index_adjusted",
+      "VV_change_adjusted",
+      "VH_change_adjusted"
+    ],
+    "dropped_features": [],
+    "drop_reason": {},
+    "training_rows": 106,
+    "training_period": "before 2026-01-01 (exclusive)"
+  },
+  {
+    "group": "multisensor_climate_sar_change",
+    "features": [
+      "temp_anomaly",
+      "PDD_adjusted",
+      "precip_7d_adjusted",
+      "antecedent_precipitation_index_adjusted",
+      "VV_change_adjusted",
+      "VH_change_adjusted",
+      "snow_fraction_anomaly",
+      "snow_fraction_change_adjusted",
+      "NDSI_anomaly"
+    ],
+    "complete_months": 100,
+    "training_months": 93,
+    "training_end_exclusive": "2026-01-01",
+    "pca_components": 4,
+    "pca_explained_variance": 0.9234001624057392,
+    "training_median": {
+      "temp_anomaly": 0.4275936895222714,
+      "PDD_adjusted": -0.24628061079346253,
+      "precip_7d_adjusted": -4.738008172331266,
+      "antecedent_precipitation_index_adjusted": 66.04049240334086,
+      "VV_change_adjusted": 0.0021254878184993886,
+      "VH_change_adjusted": 0.014042564090290588,
+      "snow_fraction_anomaly": -0.0112769222285923,
+      "snow_fraction_change_adjusted": -0.01323803952268519,
+      "NDSI_anomaly": -0.0170781348535427
+    },
+    "training_scale": {
+      "temp_anomaly": 1.0690078243465517,
+      "PDD_adjusted": 3.2112312650833057,
+      "precip_7d_adjusted": 18.05520806540122,
+      "antecedent_precipitation_index_adjusted": 105.58256847801368,
+      "VV_change_adjusted": 0.36521698927745927,
+      "VH_change_adjusted": 0.49497916432821965,
+      "snow_fraction_anomaly": 0.12117447409025071,
+      "snow_fraction_change_adjusted": 0.11926316234175158,
+      "NDSI_anomaly": 0.12367585607223579
+    }
+  }
+]

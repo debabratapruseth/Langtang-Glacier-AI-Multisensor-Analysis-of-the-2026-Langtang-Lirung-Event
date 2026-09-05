@@ -1,0 +1,8 @@
+,temp_anomaly,precip_anomaly,PDD_adjusted,snow_fraction_anomaly,NDSI_anomaly,VV_anomaly,VH_anomaly
+temp_anomaly,133,133,133,103,103,115,115
+precip_anomaly,133,133,133,103,103,115,115
+PDD_adjusted,133,133,133,103,103,115,115
+snow_fraction_anomaly,103,103,103,104,104,104,104
+NDSI_anomaly,103,103,103,104,104,104,104
+VV_anomaly,115,115,115,104,104,116,116
+VH_anomaly,115,115,115,104,104,116,116

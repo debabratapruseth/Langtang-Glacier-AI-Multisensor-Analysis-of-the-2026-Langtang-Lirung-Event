@@ -1,0 +1,25 @@
+kind,product,relative_path,status,size_bytes
+qa,Feature provenance,qa/feature_provenance.csv,pending,
+qa,Matched August climate,qa/climate_matched_august_1_24.csv,pending,
+qa,Antecedent climate windows,qa/climate_event_antecedent_windows.csv,pending,
+qa,Sentinel-1 candidate tracks,qa/sentinel1_candidate_track_qa.csv,available,1005
+qa,Sentinel-1 angle sensitivity,qa/sentinel1_angle_mask_sensitivity.csv,pending,
+qa,Sentinel-2 proxy sensitivity,qa/sentinel2_proxy_trend_sensitivity.csv,pending,
+qa,ROI provenance,qa/roi_provenance.json,available,554
+table,Optical candidate changes,tables/candidate_spectral_change_polygons.geojson,pending,
+table,Monthly feature store,tables/langtang_monthly_features.csv,available,107338
+table,Feature store with anomaly scores,tables/langtang_monthly_features_with_anomaly.csv,available,177455
+table,Trend summary,tables/trend_summary.csv,available,2504
+table,Anomaly scores,tables/anomaly_scores.csv,available,32747
+table,PCA loadings,tables/pca_loadings.csv,available,1932
+table,Event windows,tables/event_windows.json,available,770
+table,Sentinel-2 event metrics,tables/sentinel2_event_metrics.csv,available,863
+table,Sentinel-1 event metrics,tables/sentinel1_event_metrics.csv,available,877
+chart,Seasonally adjusted trends,charts/seasonally_adjusted_trends.png,available,412723
+chart,Anomaly scores,charts/anomaly_score_timeseries.png,available,547969
+chart,Environmental regimes,charts/environmental_regimes_pca.png,available,128069
+chart,Pre-event historical percentiles,charts/pre_event_historical_percentiles.png,available,1047766
+chart,Integrated event timeline,charts/integrated_event_timeline.png,available,500808
+map,Study area,maps/study_area.html,available,38287
+map,Sentinel-2 event comparison,maps/sentinel2_event_pre_post.html,available,111434
+map,Sentinel-1 event comparison,maps/sentinel1_event_pre_post.html,available,177356
